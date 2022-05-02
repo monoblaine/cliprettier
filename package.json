@@ -1,0 +1,22 @@
+{
+  "name": "@abt/cliprettier",
+  "version": "0.0.0",
+  "description": "A wrapper for prettier that makes selected text pretty",
+  "bin": {
+    "cliprettier": "./bin/cliprettier.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:monoblaine/cliprettier.git"
+  },
+  "author": "Serhan Apaydın <zerhan@gmail.com> (https://github.com/monoblaine)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monoblaine/cliprettier/issues"
+  },
+  "homepage": "https://github.com/monoblaine/cliprettier#readme",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "prettier": "^2.6.2"
+  }
+}
