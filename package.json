@@ -1,6 +1,6 @@
 {
   "name": "@abt/cliprettier",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A wrapper for prettier that makes selected text pretty",
   "bin": {
     "cliprettier": "./bin/cliprettier.js"
