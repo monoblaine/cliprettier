@@ -34,7 +34,7 @@ SendMode Input
     }
 
     WinGetTitle, activeWinTitle, A
-    RegExMatch(activeWinTitle, "\.(\w+)", match)
+    RegExMatch(activeWinTitle, "\.(\w+)(?:[^.]+)$", match)
     InputBox, fileExtension, File extension, ,, 173, 108,,,,, %match1%
 
     if ErrorLevel {
